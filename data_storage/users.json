@@ -1,0 +1,7 @@
+{
+    "BlakeTest": {
+        "salt": "bae05ee1f2c5f816dd4b2b1bff9beb33",
+        "password_hash": "f6ed037f73037266a59e39870db90e0b45e5c909b85467d9df92f1439ea4e37f",
+        "reduction_goal": null
+    }
+}

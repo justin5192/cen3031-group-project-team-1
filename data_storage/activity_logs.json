@@ -1,0 +1,18 @@
+{
+    "testuser_data_logs": [
+        {
+            "date": "2025-10-25",
+            "category": "Transportation",
+            "sub_category": "car_gasoline_avg",
+            "value": 50,
+            "footprint": 20.2
+        },
+        {
+            "date": "2025-10-25",
+            "category": "Transportation",
+            "sub_category": "car_gasoline_avg",
+            "value": 50,
+            "footprint": 20.2
+        }
+    ]
+}
