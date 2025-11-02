@@ -14,5 +14,21 @@
             "value": 50,
             "footprint": 20.2
         }
+    ],
+    "Donald_logs": [
+        {
+            "date": "2025-11-02 09:04:56",
+            "activity_type": "Transportation",
+            "sub_category": "car_gasoline_avg",
+            "value": 10.0,
+            "footprint": 4.04
+        },
+        {
+            "date": "2025-11-02 09:28:47",
+            "activity_type": "Transportation",
+            "sub_category": "car_gasoline_avg",
+            "value": 10.0,
+            "footprint": 4.04
+        }
     ]
 }
