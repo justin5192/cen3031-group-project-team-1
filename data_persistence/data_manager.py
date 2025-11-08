@@ -80,3 +80,30 @@ def get_cumulative_footprint(username):
         total_footprint += entry.get('footprint', 0.0)
         
     return round(total_footprint, 2)
+
+import csv
+import os
+
+def export_logs_to_csv(username, filepath="carbon_export.csv"):
+    """
+    Exports the user's logged activities to a CSV file.
+    """
+    logs = load_activity_logs()
+    user_key = f"{username}_logs"
+    user_logs = logs.get(user_key, [])
+
+    if not user_logs:
+        raise ValueError("No logs available to export.")
+
+    # Ensure folder exists (if user gives path)
+    os.makedirs(os.path.dirname(filepath) or ".", exist_ok=True)
+
+    with open(filepath, "w", newline="") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=user_logs[0].keys())
+        writer.writeheader()
+        writer.writerows(user_logs)
+
+    return filepath
+
+
+

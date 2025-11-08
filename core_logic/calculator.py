@@ -20,3 +20,34 @@ def calculate_footprint(activity_type, sub_category, value):
     footprint = factor * value
     
     return round(footprint, 2)
+
+from datetime import datetime, timedelta
+
+def summarize_by_category(user_logs):
+    """Return {category: total footprint}."""
+    summary = {}
+    for entry in user_logs:
+        cat = entry.get("activity_type")
+        fp = entry.get("footprint", 0)
+        summary[cat] = summary.get(cat, 0) + fp
+    return {k: round(v, 2) for k, v in summary.items()}
+
+def last_7_days_timeseries(user_logs):
+    """Return list of (date_str, total_fp) for last 7 days."""
+    today = datetime.now().date()
+    series = {today - timedelta(days=i): 0 for i in range(7)}
+
+    for entry in user_logs:
+        # Accept either 'timestamp' or 'date' keys depending on where the log was created
+        ts = entry.get("timestamp") or entry.get("date")
+        if not ts:
+            continue
+        try:
+            d = datetime.strptime(ts, "%Y-%m-%d %H:%M:%S").date()
+        except:
+            continue
+        if d in series:
+            series[d] += entry.get("footprint", 0)
+
+    # Convert to chart-friendly sorted list
+    return [(d.strftime("%Y-%m-%d"), round(v, 2)) for d, v in sorted(series.items())]

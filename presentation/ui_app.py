@@ -3,8 +3,8 @@ from tkinter import messagebox
 from datetime import datetime
 
 # Import necessary core logic components
-from data_persistence.data_manager import save_activity_log, load_activity_logs, get_cumulative_footprint
-from core_logic.calculator import calculate_footprint
+from data_persistence.data_manager import save_activity_log, load_activity_logs, get_cumulative_footprint, export_logs_to_csv
+from core_logic.calculator import calculate_footprint, summarize_by_category, last_7_days_timeseries
 from core_logic.constants import ACTIVITY_CATEGORIES
 
 # --- Helper Functions (Simulating data persistence layer access for GOALS) ---
@@ -154,6 +154,14 @@ class CarbonTrackerApp:
         self.value_entry.delete(0, tk.END)
         self.show_dashboard() # Show the dashboard now to reflect the updated total
 
+    def export_data(self):
+        """Export the current user's logs to CSV using the data manager helper."""
+        try:
+            filepath = export_logs_to_csv(self.current_user)
+            messagebox.showinfo("Export Success", f"Logs exported to {filepath}")
+        except Exception as e:
+            messagebox.showerror("Export Error", f"Failed to export logs: {e}")
+
     # --- PBI 6.1 & PBI 9.1 Combined Dashboard ---
 
     def show_dashboard(self):
@@ -194,6 +202,8 @@ class CarbonTrackerApp:
         
         tk.Frame(self.master, height=2, bd=1, relief='sunken').pack(fill='x', padx=10, pady=5) # Separator
 
+        
+
         # --- BOTTOM SECTION: ACTIVITY LOG (PBI 9.1) ---
         tk.Label(self.master, text="Recent Activity Log (PBI 9.1)", font=('Arial', 14, 'bold')).pack(pady=5)
         
@@ -228,6 +238,28 @@ class CarbonTrackerApp:
             
             log_text.insert(tk.END, display_text)
             log_text.config(state='disabled')
+
+        # --- Sprint 3: Summary by Category + Last 7 Days + Export Button ---
+
+        # Category Summary
+        tk.Label(self.master, text="CO₂ Emissions by Category (Sprint 3)", font=('Arial', 14, 'bold')).pack(pady=5)
+
+        logs = load_activity_logs().get(f"{self.current_user}_logs", [])
+        summary = summarize_by_category(logs)
+
+        if summary:
+            for category, total in summary.items():
+                tk.Label(self.master, text=f"{category}: {total:.2f} kg CO₂e").pack()
+        else:
+            tk.Label(self.master, text="No data yet").pack()
+
+        tk.Label(self.master, text="Last 7 Days Footprint", font=('Arial', 14, 'bold')).pack(pady=8)
+        series = last_7_days_timeseries(logs)
+        for day, val in series:
+            tk.Label(self.master, text=f"{day}: {val:.2f} kg CO₂e").pack()
+
+        tk.Button(self.master, text="Export Logs to CSV", command=self.export_data).pack(pady=10)
+        tk.Frame(self.master, height=2, bd=1, relief='sunken').pack(fill='x', padx=10, pady=10)
 
         # --- BOTTOM ACTION BUTTONS ---
         action_frame = tk.Frame(self.master)
