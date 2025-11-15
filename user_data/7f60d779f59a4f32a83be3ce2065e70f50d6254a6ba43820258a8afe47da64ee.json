@@ -1,0 +1,56 @@
+{
+    "goal": 50.0,
+    "logs": [
+        {
+            "category": "Transportation",
+            "activity": "Car - Small Gasoline (Miles)",
+            "value": 21.0,
+            "footprint": 7.35,
+            "description": "20 mins driving",
+            "timestamp": "2025-11-02T14:24:48.631339"
+        },
+        {
+            "category": "Food",
+            "activity": "Red Meat - Beef (Servings)",
+            "value": 1.0,
+            "footprint": 7.0,
+            "description": "1 pound of beef",
+            "timestamp": "2025-11-02T14:26:53.037997"
+        },
+        {
+            "category": "Transportation",
+            "activity": "Car - Small Gasoline (Miles)",
+            "value": 40.0,
+            "footprint": 14.0,
+            "description": "Work commute",
+            "timestamp": "2025-11-02T14:52:07.400641"
+        },
+        {
+            "category": "Food",
+            "activity": "Fish - Wild Caught (Servings)",
+            "value": 2.0,
+            "footprint": 3.0,
+            "description": "Catfish",
+            "timestamp": "2025-11-02T14:52:30.180563"
+        },
+        {
+            "category": "Energy",
+            "activity": "Electricity - US Avg (kWh)",
+            "value": 1.0,
+            "footprint": 0.42,
+            "description": "TV at 1 hour",
+            "timestamp": "2025-11-15T11:08:32.744418"
+        },
+        {
+            "category": "Food",
+            "activity": "Red Meat - Beef (Servings)",
+            "value": 5.0,
+            "footprint": 35.0,
+            "description": "5 LBs",
+            "timestamp": "2025-11-15T11:10:01.202470"
+        }
+    ],
+    "password_hash": "7f60d779f59a4f32a83be3ce2065e70f50d6254a6ba43820258a8afe47da64ee",
+    "goal_type": "weekly",
+    "needs_initial_goal": false
+}

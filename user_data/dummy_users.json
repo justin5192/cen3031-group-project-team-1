@@ -1,0 +1,402 @@
+[
+    {
+        "user_id": "dummy_0",
+        "weekly_total": 105.87
+    },
+    {
+        "user_id": "dummy_1",
+        "weekly_total": 186.68
+    },
+    {
+        "user_id": "dummy_2",
+        "weekly_total": 128.35
+    },
+    {
+        "user_id": "dummy_3",
+        "weekly_total": 128.54
+    },
+    {
+        "user_id": "dummy_4",
+        "weekly_total": 126.66
+    },
+    {
+        "user_id": "dummy_5",
+        "weekly_total": 93.19
+    },
+    {
+        "user_id": "dummy_6",
+        "weekly_total": 144.63
+    },
+    {
+        "user_id": "dummy_7",
+        "weekly_total": 140.58
+    },
+    {
+        "user_id": "dummy_8",
+        "weekly_total": 117.22
+    },
+    {
+        "user_id": "dummy_9",
+        "weekly_total": 73.16
+    },
+    {
+        "user_id": "dummy_10",
+        "weekly_total": 181.72
+    },
+    {
+        "user_id": "dummy_11",
+        "weekly_total": 64.34
+    },
+    {
+        "user_id": "dummy_12",
+        "weekly_total": 128.48
+    },
+    {
+        "user_id": "dummy_13",
+        "weekly_total": 140.23
+    },
+    {
+        "user_id": "dummy_14",
+        "weekly_total": 50
+    },
+    {
+        "user_id": "dummy_15",
+        "weekly_total": 94.51
+    },
+    {
+        "user_id": "dummy_16",
+        "weekly_total": 145.23
+    },
+    {
+        "user_id": "dummy_17",
+        "weekly_total": 133.44
+    },
+    {
+        "user_id": "dummy_18",
+        "weekly_total": 120.92
+    },
+    {
+        "user_id": "dummy_19",
+        "weekly_total": 112.32
+    },
+    {
+        "user_id": "dummy_20",
+        "weekly_total": 105.56
+    },
+    {
+        "user_id": "dummy_21",
+        "weekly_total": 116.88
+    },
+    {
+        "user_id": "dummy_22",
+        "weekly_total": 160.88
+    },
+    {
+        "user_id": "dummy_23",
+        "weekly_total": 109.11
+    },
+    {
+        "user_id": "dummy_24",
+        "weekly_total": 132.68
+    },
+    {
+        "user_id": "dummy_25",
+        "weekly_total": 114.06
+    },
+    {
+        "user_id": "dummy_26",
+        "weekly_total": 106.32
+    },
+    {
+        "user_id": "dummy_27",
+        "weekly_total": 160.25
+    },
+    {
+        "user_id": "dummy_28",
+        "weekly_total": 165.78
+    },
+    {
+        "user_id": "dummy_29",
+        "weekly_total": 117.18
+    },
+    {
+        "user_id": "dummy_30",
+        "weekly_total": 120.16
+    },
+    {
+        "user_id": "dummy_31",
+        "weekly_total": 74.13
+    },
+    {
+        "user_id": "dummy_32",
+        "weekly_total": 138.49
+    },
+    {
+        "user_id": "dummy_33",
+        "weekly_total": 168.19
+    },
+    {
+        "user_id": "dummy_34",
+        "weekly_total": 112.78
+    },
+    {
+        "user_id": "dummy_35",
+        "weekly_total": 132.4
+    },
+    {
+        "user_id": "dummy_36",
+        "weekly_total": 106.62
+    },
+    {
+        "user_id": "dummy_37",
+        "weekly_total": 142.23
+    },
+    {
+        "user_id": "dummy_38",
+        "weekly_total": 126.38
+    },
+    {
+        "user_id": "dummy_39",
+        "weekly_total": 74.73
+    },
+    {
+        "user_id": "dummy_40",
+        "weekly_total": 136.21
+    },
+    {
+        "user_id": "dummy_41",
+        "weekly_total": 121.56
+    },
+    {
+        "user_id": "dummy_42",
+        "weekly_total": 79.02
+    },
+    {
+        "user_id": "dummy_43",
+        "weekly_total": 118.26
+    },
+    {
+        "user_id": "dummy_44",
+        "weekly_total": 145.64
+    },
+    {
+        "user_id": "dummy_45",
+        "weekly_total": 151.71
+    },
+    {
+        "user_id": "dummy_46",
+        "weekly_total": 176.24
+    },
+    {
+        "user_id": "dummy_47",
+        "weekly_total": 137.44
+    },
+    {
+        "user_id": "dummy_48",
+        "weekly_total": 170.51
+    },
+    {
+        "user_id": "dummy_49",
+        "weekly_total": 141.82
+    },
+    {
+        "user_id": "dummy_50",
+        "weekly_total": 104.02
+    },
+    {
+        "user_id": "dummy_51",
+        "weekly_total": 108.24
+    },
+    {
+        "user_id": "dummy_52",
+        "weekly_total": 141.95
+    },
+    {
+        "user_id": "dummy_53",
+        "weekly_total": 126.94
+    },
+    {
+        "user_id": "dummy_54",
+        "weekly_total": 99.22
+    },
+    {
+        "user_id": "dummy_55",
+        "weekly_total": 86.24
+    },
+    {
+        "user_id": "dummy_56",
+        "weekly_total": 152.82
+    },
+    {
+        "user_id": "dummy_57",
+        "weekly_total": 146.55
+    },
+    {
+        "user_id": "dummy_58",
+        "weekly_total": 140.5
+    },
+    {
+        "user_id": "dummy_59",
+        "weekly_total": 141.15
+    },
+    {
+        "user_id": "dummy_60",
+        "weekly_total": 178.8
+    },
+    {
+        "user_id": "dummy_61",
+        "weekly_total": 119.59
+    },
+    {
+        "user_id": "dummy_62",
+        "weekly_total": 160.44
+    },
+    {
+        "user_id": "dummy_63",
+        "weekly_total": 124.61
+    },
+    {
+        "user_id": "dummy_64",
+        "weekly_total": 149.47
+    },
+    {
+        "user_id": "dummy_65",
+        "weekly_total": 163.7
+    },
+    {
+        "user_id": "dummy_66",
+        "weekly_total": 127.74
+    },
+    {
+        "user_id": "dummy_67",
+        "weekly_total": 156.5
+    },
+    {
+        "user_id": "dummy_68",
+        "weekly_total": 105.98
+    },
+    {
+        "user_id": "dummy_69",
+        "weekly_total": 143.21
+    },
+    {
+        "user_id": "dummy_70",
+        "weekly_total": 125.92
+    },
+    {
+        "user_id": "dummy_71",
+        "weekly_total": 82.66
+    },
+    {
+        "user_id": "dummy_72",
+        "weekly_total": 142.41
+    },
+    {
+        "user_id": "dummy_73",
+        "weekly_total": 92.77
+    },
+    {
+        "user_id": "dummy_74",
+        "weekly_total": 116.49
+    },
+    {
+        "user_id": "dummy_75",
+        "weekly_total": 67.23
+    },
+    {
+        "user_id": "dummy_76",
+        "weekly_total": 136.76
+    },
+    {
+        "user_id": "dummy_77",
+        "weekly_total": 167.42
+    },
+    {
+        "user_id": "dummy_78",
+        "weekly_total": 155.48
+    },
+    {
+        "user_id": "dummy_79",
+        "weekly_total": 99.4
+    },
+    {
+        "user_id": "dummy_80",
+        "weekly_total": 141.71
+    },
+    {
+        "user_id": "dummy_81",
+        "weekly_total": 115.25
+    },
+    {
+        "user_id": "dummy_82",
+        "weekly_total": 157.58
+    },
+    {
+        "user_id": "dummy_83",
+        "weekly_total": 109.81
+    },
+    {
+        "user_id": "dummy_84",
+        "weekly_total": 138.57
+    },
+    {
+        "user_id": "dummy_85",
+        "weekly_total": 76.27
+    },
+    {
+        "user_id": "dummy_86",
+        "weekly_total": 111.52
+    },
+    {
+        "user_id": "dummy_87",
+        "weekly_total": 115.08
+    },
+    {
+        "user_id": "dummy_88",
+        "weekly_total": 159.15
+    },
+    {
+        "user_id": "dummy_89",
+        "weekly_total": 168.66
+    },
+    {
+        "user_id": "dummy_90",
+        "weekly_total": 160.2
+    },
+    {
+        "user_id": "dummy_91",
+        "weekly_total": 151.81
+    },
+    {
+        "user_id": "dummy_92",
+        "weekly_total": 191.6
+    },
+    {
+        "user_id": "dummy_93",
+        "weekly_total": 149.25
+    },
+    {
+        "user_id": "dummy_94",
+        "weekly_total": 131.64
+    },
+    {
+        "user_id": "dummy_95",
+        "weekly_total": 173.83
+    },
+    {
+        "user_id": "dummy_96",
+        "weekly_total": 95.38
+    },
+    {
+        "user_id": "dummy_97",
+        "weekly_total": 112.47
+    },
+    {
+        "user_id": "dummy_98",
+        "weekly_total": 99.17
+    },
+    {
+        "user_id": "dummy_99",
+        "weekly_total": 102.5
+    }
+]
